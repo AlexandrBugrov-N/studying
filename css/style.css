@@ -1,0 +1,110 @@
+@font-face{
+    font-family: Oreg;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: Obold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face{
+    font-family: Oebold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Osbold;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.limiter {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+/*____________________________________________Header*/
+.limiter.head {
+    background-color: #f6f2f2;
+    padding-top: 30px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #313030;
+}
+.item {
+    padding: 35px;
+    color: white;
+    font-family: Obold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+.item:hover {
+    background-color: #ff3f40;
+}
+
+.head__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 110px;
+}
+.header__plus__paragraf {
+    padding-bottom: 100px
+}
+.head__header {
+    font-size: 60px;
+    font-family: Oebold;
+    text-transform: uppercase;
+    max-width: 480px;
+    line-height: 72px;
+    margin-top: -18px;
+}
+.head__paragraf {
+    max-width: 420px;
+    font-size: 16px;
+    font-family: Oreg;
+    padding-top: 37px;
+}
+.head__botton {
+    display: flex;
+    background-color: #ff2d2d;
+    margin-top: 62px;
+    height: 55px;
+    max-width: 230px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: Obold;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.head__video {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #c4c0b1;
+    box-shadow: 0px 14px 73px 0px rgba(0, 0, 0, 0.29);
+    width: 551px;
+    height: 356px; 
+    margin-bottom: 30px;
+}
+.fa {
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+}
+/*____________________________________________media*/
+@media screen and (max-width: 621px) {
+    .item {
+        width: 22%;
+    }
+}
